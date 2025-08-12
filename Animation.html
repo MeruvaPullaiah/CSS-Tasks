@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: chocolate;
+        }
+        .main{
+            background-color:yellow;
+            width:200px;
+            height:200px;
+            border-radius: 50%;
+            margin-top:200px;
+            box-shadow: 0 0 40px 15px rgba(255, 255, 0, 0.737);
+            animation-name: circle;
+            position:relative;
+            animation-timing-function:linear;
+            animation-duration: 5s;
+
+
+        }
+        .sub{
+            width:160px;
+            height:160px;
+            border-radius:50%;
+            background-color:orange;
+
+        }
+        .main .sub{
+            position:fixed;
+            top:220px;
+            left:615px;
+        }
+        @keyframes circle{
+            from{
+                left:25px;
+                top:20px;
+            }
+            to{
+                left:0px;
+                top:0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <center><div class="main">
+        <div class="sub"></div>
+    </div>
+    </center>
+</body>
+</html>
