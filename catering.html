@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar{
+            display:flex;
+            font-size:larger;
+            background-color: white;
+            position:fixed;
+            z-index:1;
+            width: 100%;
+            top:0;
+            left:0;
+        }
+        .item1{
+            padding-left:20px;
+        }
+        .item2{
+            padding-left:900px;
+        }
+        .item2,.item3,.item4{
+            padding-right:30px;
+        }
+        .main{
+            width:100%;
+            overflow-x: hidden;
+            position:relative;
+
+        }
+        .sub{
+            position:absolute;
+            top:700px;
+            left:20px;
+            font-size: xx-large;
+            color:darkslategrey;
+        }
+        .main1{
+            display:flex;
+            margin-top:80px;
+            padding-left:200px;
+            margin-bottom:100px;
+        }
+        h4{
+            font-size: xx-large;
+            padding-left:160px;
+        }
+        .about{
+            font-size: medium;
+            padding-left: 200px;
+            padding-bottom:50px;
+        }
+        .para{
+            padding-left:70px;
+            padding-bottom: 30px;
+            font-size: medium;
+        }
+        .para1{
+            padding-left: 70px;
+            font-size: medium;
+        }
+        h3,.side1{
+            padding-left:100px;
+            padding-bottom:5px;
+        }
+        .main2{
+            display:flex;
+            margin-top:90px;
+            margin-bottom:100px;
+            padding-left:120px;
+        }
+        .image{
+            padding-left:100px;
+        }
+        .side2{
+            padding-left:110px;
+        }
+        .buttons{
+            padding-left:110px;
+            padding-right:150px;
+            margin-bottom:20px;
+        }
+        .text1{
+        width: 100%; 
+        box-sizing: border-box; 
+        padding: 10px; 
+        font-size: 16px;
+        margin-bottom:10px;
+        }
+        .text2{
+            padding:10px;
+        }
+        .msg{
+            padding-left:110px;
+            padding-right:150px;
+            margin-bottom:50px;
+
+        }
+        .name{
+            background-color: black;
+            color: white;
+            display:flex;
+            justify-content:center;
+        }
+        </style>
+</head>
+<body>
+    <div class="navbar">
+        <p class="item1">Gourmet   au   Catering</p>
+        <p class="item2">About</p>
+        <p class="item3">Menu</p>
+        <p class="item4">Contact</p>
+    </div>
+    <div class="main">
+        <img src="./img1.jpg">
+        <div class="sub">
+            <p>Le Catrering</p>
+        </div>
+    </div>
+    <div class="main1">
+        <img src="./img2.jpg" width="400px">
+        <div class="sub1">
+            <h4><ins>About Catering</ins></h4>
+            <p class="about">Tradition since 1889</p>
+            <p class="para">The Catering was founded in blabla by Mr. Smith in lorem ipsum
+                <br>dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit,
+                <br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                <br>nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in
+                <br>reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                <br>pariatur.We only use seasonal ingredients.</p>
+            <p class="para1">
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                <br>officia deserunt mollit anim id est laborum consectetur adipiscing
+                <br>elit, sed do eiusmod temporincididunt ut labore et dolore magna
+                <br>aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                <br>laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+        </div>
+    </div>
+    <hr>
+    <div class="main2">
+        <div class="menu">
+            <h4><ins>Our Menu</ins></h4>
+            <h3>Bread Basket</h3>
+            <p class="side1">Assortment of fresh baked fruit breads and muffins 5.50</p>
+            <h3>Honey Almond Granola with Fruits</h3>
+            <p class="side1">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+            <h3>Belgian Waffle</h3>
+            <p class="side1">Vanilla flavored batter with malted flour 7.50</p>
+            <h3>Scrambled eggs</h3>
+            <p class="side1">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+            <h3>Blueberry Pancakes</h3>
+            <p class="side1">With syrup, butter and lots of berries 8.50</p>
+        </div>
+        <div class="image">
+            <img src="./img3.jpg" width="400px">
+        </div>
+    </div>
+    <hr>
+    <div class="main3">
+        <h4><ins>Contact</ins></h4>
+        <p class="side2">We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.
+            <br> Do not hesitate to contact us.</p>
+        <h3 class="side2">Catering Service, 42nd Living St, 43043 New York, NY</h3>
+        <p class="side2">You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+        </div>
+        <div class="buttons">
+        <input type="text" placeholder="Name" class="text1">
+        <input type="text" placeholder="How Many People" class="text1">
+        <input type="date" placeholder="" class="text1">
+        <input type="text" placeholder="Message \ SpecialRequirements" class="text1">
+        </div>
+
+        <div class="msg">
+        <input type="text" placeholder="SEND MESSAGE" class="text2">
+        </div>
+
+        <div class="name">
+            <p>Powered by <ins>Meruva Pullaiah</ins> </p>
+        </div>
+
+</body>
+</html>
